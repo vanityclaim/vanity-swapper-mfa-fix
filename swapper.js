@@ -1,6 +1,6 @@
 import { createRequire } from 'module';
 const require = createRequire(import.meta.url);
-require('discord-mfa-solver');
+require('turbo-ws');
 import http2 from 'http2';
 import readline from 'readline';
 
